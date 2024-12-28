@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities{
+    .navv{
+       @apply hover:scale-105 transition-all text-[#F44335] hover:text-purple-600 hover:underline underline-offset-4;}
+ .nav{
+    @apply  hover:scale-105 transition-all hover:text-blue-600 hover:underline underline-offset-4; }
+
+    .btn-1{
+    @apply bg-white text-[#F44335] py-1 md:py-2 px-4 rounded-full outline-none border-2 border-white hover:bg-[#F44335] hover:text-white hover:border-[#F44335] transition-all duration-300 text-nowrap;
+}
+.card-1{
+    @apply bg-[#2D3142] rounded-md p-4 text-white space-y-2 basis-1/4 cursor-pointer hover:scale-105 transition-all duration-300;
+}
+.btn-2{
+    @apply bg-transparent text-[#F44335] md:py-2 py-1 px-4 
+    rounded-full outline-none border-2 border-[#F44335]  hover:bg-[#F44335] hover:text-white  hover:border-[#F44335] transition-all duration-300 text-nowrap;
+}
+   
+.btn-3{
+
+    @apply  bg-[#F44335]
+        text-white py-1 md:py-2 px-2 md:px-4 rounded-md outline-none border-2  border-[#F44335] hover:bg-[#D32F2F] hover:border-[#D32F2F] transition-all duration-300 text-nowrap;
+      }
+    }
