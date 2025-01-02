@@ -1,12 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: ["*"],
   theme: {
-
     extend: {
-      backgroundImage:{
-        'bg-img': 'url(/images/bg.png)'
-      }
+      fontFamily: {
+        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+        inter: ['"Inter"', 'serif'], // Added Inter font here
+      },
     },
   },
   plugins: [],
