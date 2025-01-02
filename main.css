@@ -23,4 +23,22 @@
     @apply  bg-[#F44335]
         text-white py-1 md:py-2 px-2 md:px-4 rounded-md outline-none border-2  border-[#F44335] hover:bg-[#D32F2F] hover:border-[#D32F2F] transition-all duration-300 text-nowrap;
       }
+
+      .team-card{
+        @apply w-full
+        p-5
+        flex
+        md:flex-col
+        md:text-center
+        items-center
+        gap-3
+        rounded-md
+        shadow-xl
+        bg-white
+        dark:bg-[#2D3142]
+        cursor-pointer
+        hover:scale-105
+        transition-all
+        duration-300;
     }
+}
