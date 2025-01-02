@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark scroll-smooth" id="htmlTag">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -429,5 +429,14 @@
  <div class="w-full text-center py-4 bg-white dark:bg-sec-dark-bg #2D3142 dark:text-white text-sm">&copy; Copyright 2022 Creatives For You LTD</div>
 
 <!-- footer section end here -->
+
+     <!-- this is for internal js -->
+     <script>
+        const htmlTag = document.getElementById("htmlTag");
+        document.getElementById("switch").addEventListener("click", function () {
+            htmlTag.classList.toggle("dark");
+        });
+    </script>
+    <!-- End of java Script -->
   </body>
 </html>
